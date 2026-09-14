@@ -2,6 +2,4 @@ we are building an SMS Spam Classifier from scratch
 
 This python code uses Multinomial Naive Bayes with add-1 (Laplace) smoothing to track spam and ham(not spam) SMS
 
-Rules: unknown words (never seen in training) are dropped; add-1 smoothing keeps every  P(w∣c)>0  so a single missing word can't zero out a class.
-
-Heads-up: real data is imbalanced — about 87% of messages are ham. So unlike a toy 50/50 set, the prior genuinely matters here.
+The Input: Real text messages (like "Free tickets to win call 87121" or "Hey are we meeting tonight?").  The Goal: Build a program that reads any text message and labels it as either spam or ham (normal, legitimate message).  The Technique: Multinomial Naive Bayes with Laplace (Add-1) Smoothing.
