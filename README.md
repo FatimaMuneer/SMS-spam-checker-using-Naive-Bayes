@@ -5,3 +5,5 @@ This python code uses Multinomial Naive Bayes with add-1 (Laplace) smoothing to 
 The Input: Real text messages (like "Free tickets to win call 87121" or "Hey are we meeting tonight?").  The Goal: Build a program that reads any text message and labels it as either spam or ham (normal, legitimate message).  The Technique: Multinomial Naive Bayes with Laplace (Add-1) Smoothing.
 
 This project also displays a Dashboard App link:(https://sms-spam-checker-using-naive-bayes-dkkmsoozjuenvdesuakoge.streamlit.app/) , The app is built using streamlit.io
+
+Interactive web application built with Streamlit demonstrating a from-scratch Multinomial Naive Bayes text classifier with Laplace smoothing and log-space transformation.
